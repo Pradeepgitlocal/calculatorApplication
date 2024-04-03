@@ -1,0 +1,117 @@
+03/04/2024 23:27:18 devpinoyLogger ***** Loading log4j.properties file ******
+03/04/2024 23:27:18 devpinoyLogger ***** Loading config.properties file
+03/04/2024 23:27:19 devpinoyLogger ***** Selected Chrome Browser ******
+03/04/2024 23:27:19 devpinoyLogger ***** Launching URL******https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html
+03/04/2024 23:27:19 devpinoyLogger ***** CALCULATOR APPLICATION URL has opened ******
+03/04/2024 23:27:20 devpinoyLogger ***** First input value is : 4.0  ******
+03/04/2024 23:27:20 devpinoyLogger ***** Method Division of two Numbers was selected ******
+03/04/2024 23:27:21 devpinoyLogger ***** Second input value is : 2.0  ******
+03/04/2024 23:27:22 devpinoyLogger ***** Results button was selected ******
+03/04/2024 23:27:22 devpinoyLogger ***** Result from Division Method : 2.0  ******
+03/04/2024 23:27:22 devpinoyLogger ***** Result from Calculator Division Method : 6.0  ******
+03/04/2024 23:30:19 devpinoyLogger ***** Loading log4j.properties file ******
+03/04/2024 23:30:19 devpinoyLogger ***** Loading config.properties file
+03/04/2024 23:30:21 devpinoyLogger ***** Selected Chrome Browser ******
+03/04/2024 23:30:22 devpinoyLogger ***** Launching URL******https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html
+03/04/2024 23:30:22 devpinoyLogger ***** CALCULATOR APPLICATION URL has opened ******
+03/04/2024 23:30:23 devpinoyLogger ***** First input value is : 4.0  ******
+03/04/2024 23:30:23 devpinoyLogger ***** Method Addition of two Numbers was selected ******
+03/04/2024 23:30:24 devpinoyLogger ***** Second input value is : 4.0  ******
+03/04/2024 23:30:24 devpinoyLogger ***** Results button was selected ******
+03/04/2024 23:30:24 devpinoyLogger ***** Result from Addition Method : 8.0  ******
+03/04/2024 23:30:24 devpinoyLogger ***** Result from Calculator Addition Method : 8.0  ******
+03/04/2024 23:30:24 devpinoyLogger ***** Results are same 8.0  ,  8.0 ******
+03/04/2024 23:30:25 devpinoyLogger ***** Results will be displayed on the Screen ******
+03/04/2024 23:30:26 devpinoyLogger ***** CALCULATOR APPLICATION URL has Closed ******
+03/04/2024 23:30:26 devpinoyLogger ***** Loading log4j.properties file ******
+03/04/2024 23:30:26 devpinoyLogger ***** Loading config.properties file
+03/04/2024 23:30:27 devpinoyLogger ***** Selected Chrome Browser ******
+03/04/2024 23:30:27 devpinoyLogger ***** Launching URL******https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html
+03/04/2024 23:30:28 devpinoyLogger ***** CALCULATOR APPLICATION URL has opened ******
+03/04/2024 23:30:28 devpinoyLogger ***** First input value is : 9.0  ******
+03/04/2024 23:30:29 devpinoyLogger ***** Method Subtraction of two Numbers was selected ******
+03/04/2024 23:30:29 devpinoyLogger ***** Second input value is : 2.0  ******
+03/04/2024 23:30:30 devpinoyLogger ***** Results button was selected ******
+03/04/2024 23:30:30 devpinoyLogger ***** Result from Subtraction Method : 7.0  ******
+03/04/2024 23:30:30 devpinoyLogger ***** Result from Calculator Subtraction Method : 11.0  ******
+03/04/2024 23:30:30 devpinoyLogger ***** Loading log4j.properties file ******
+03/04/2024 23:30:30 devpinoyLogger ***** Loading config.properties file
+03/04/2024 23:30:31 devpinoyLogger ***** Selected Chrome Browser ******
+03/04/2024 23:30:32 devpinoyLogger ***** Launching URL******https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html
+03/04/2024 23:30:32 devpinoyLogger ***** CALCULATOR APPLICATION URL has opened ******
+03/04/2024 23:30:33 devpinoyLogger ***** First input value is : 0.0  ******
+03/04/2024 23:30:33 devpinoyLogger ***** Method Multiplication of two Numbers was selected ******
+03/04/2024 23:30:34 devpinoyLogger ***** Second input value is : 0.0  ******
+03/04/2024 23:30:35 devpinoyLogger ***** Results button was selected ******
+03/04/2024 23:30:35 devpinoyLogger ***** Result from Multiplication Method : 0.0  ******
+03/04/2024 23:30:35 devpinoyLogger ***** Result from Calculator Multiplication Method : 0.0  ******
+03/04/2024 23:30:35 devpinoyLogger ***** Results are same 0.0  ,  0.0 ******
+03/04/2024 23:30:36 devpinoyLogger ***** Results will be displayed on the Screen ******
+03/04/2024 23:30:36 devpinoyLogger ***** CALCULATOR APPLICATION URL has Closed ******
+03/04/2024 23:30:36 devpinoyLogger ***** Loading log4j.properties file ******
+03/04/2024 23:30:36 devpinoyLogger ***** Loading config.properties file
+03/04/2024 23:30:37 devpinoyLogger ***** Selected Chrome Browser ******
+03/04/2024 23:30:37 devpinoyLogger ***** Launching URL******https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html
+03/04/2024 23:30:38 devpinoyLogger ***** CALCULATOR APPLICATION URL has opened ******
+03/04/2024 23:30:38 devpinoyLogger ***** First input value is : 5.0  ******
+03/04/2024 23:30:39 devpinoyLogger ***** Method Division of two Numbers was selected ******
+03/04/2024 23:30:39 devpinoyLogger ***** Second input value is : 3.0  ******
+03/04/2024 23:30:40 devpinoyLogger ***** Results button was selected ******
+03/04/2024 23:30:40 devpinoyLogger ***** Result from Division Method : 1.0  ******
+03/04/2024 23:30:40 devpinoyLogger ***** Result from Calculator Division Method : 8.0  ******
+03/04/2024 23:34:35 devpinoyLogger ***** Loading log4j.properties file ******
+03/04/2024 23:34:35 devpinoyLogger ***** Loading config.properties file
+03/04/2024 23:34:36 devpinoyLogger ***** Selected Chrome Browser ******
+03/04/2024 23:34:37 devpinoyLogger ***** Launching URL******https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html
+03/04/2024 23:34:37 devpinoyLogger ***** CALCULATOR APPLICATION URL has opened ******
+03/04/2024 23:34:37 devpinoyLogger ***** First input value is : 7.0  ******
+03/04/2024 23:34:38 devpinoyLogger ***** Method Addition of two Numbers was selected ******
+03/04/2024 23:34:39 devpinoyLogger ***** Second input value is : 3.0  ******
+03/04/2024 23:34:39 devpinoyLogger ***** Results button was selected ******
+03/04/2024 23:34:39 devpinoyLogger ***** Result from Addition Method : 10.0  ******
+03/04/2024 23:34:39 devpinoyLogger ***** Result from Calculator Addition Method : 10.0  ******
+03/04/2024 23:34:39 devpinoyLogger ***** Results are same 10.0  ,  10.0 ******
+03/04/2024 23:34:40 devpinoyLogger ***** Results will be displayed on the Screen ******
+03/04/2024 23:34:41 devpinoyLogger ***** CALCULATOR APPLICATION URL has Closed ******
+03/04/2024 23:34:41 devpinoyLogger ***** Loading log4j.properties file ******
+03/04/2024 23:34:41 devpinoyLogger ***** Loading config.properties file
+03/04/2024 23:34:42 devpinoyLogger ***** Selected Chrome Browser ******
+03/04/2024 23:34:42 devpinoyLogger ***** Launching URL******https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html
+03/04/2024 23:34:42 devpinoyLogger ***** CALCULATOR APPLICATION URL has opened ******
+03/04/2024 23:34:43 devpinoyLogger ***** First input value is : 3.0  ******
+03/04/2024 23:34:43 devpinoyLogger ***** Method Subtraction of two Numbers was selected ******
+03/04/2024 23:34:44 devpinoyLogger ***** Second input value is : 3.0  ******
+03/04/2024 23:34:45 devpinoyLogger ***** Results button was selected ******
+03/04/2024 23:34:45 devpinoyLogger ***** Result from Subtraction Method : 0.0  ******
+03/04/2024 23:34:45 devpinoyLogger ***** Result from Calculator Subtraction Method : 6.0  ******
+03/04/2024 23:34:45 devpinoyLogger ***** Results are same 0.0  ,  6.0 ******
+03/04/2024 23:34:46 devpinoyLogger ***** Results will be displayed on the Screen ******
+03/04/2024 23:34:46 devpinoyLogger ***** CALCULATOR APPLICATION URL has Closed ******
+03/04/2024 23:34:46 devpinoyLogger ***** Loading log4j.properties file ******
+03/04/2024 23:34:46 devpinoyLogger ***** Loading config.properties file
+03/04/2024 23:34:47 devpinoyLogger ***** Selected Chrome Browser ******
+03/04/2024 23:34:47 devpinoyLogger ***** Launching URL******https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html
+03/04/2024 23:34:48 devpinoyLogger ***** CALCULATOR APPLICATION URL has opened ******
+03/04/2024 23:34:48 devpinoyLogger ***** First input value is : 1.0  ******
+03/04/2024 23:34:49 devpinoyLogger ***** Method Multiplication of two Numbers was selected ******
+03/04/2024 23:34:49 devpinoyLogger ***** Second input value is : 2.0  ******
+03/04/2024 23:34:50 devpinoyLogger ***** Results button was selected ******
+03/04/2024 23:34:50 devpinoyLogger ***** Result from Multiplication Method : 2.0  ******
+03/04/2024 23:34:50 devpinoyLogger ***** Result from Calculator Multiplication Method : 3.0  ******
+03/04/2024 23:34:50 devpinoyLogger ***** Results are same 2.0  ,  3.0 ******
+03/04/2024 23:34:51 devpinoyLogger ***** Results will be displayed on the Screen ******
+03/04/2024 23:34:52 devpinoyLogger ***** CALCULATOR APPLICATION URL has Closed ******
+03/04/2024 23:34:52 devpinoyLogger ***** Loading log4j.properties file ******
+03/04/2024 23:34:52 devpinoyLogger ***** Loading config.properties file
+03/04/2024 23:34:53 devpinoyLogger ***** Selected Chrome Browser ******
+03/04/2024 23:34:53 devpinoyLogger ***** Launching URL******https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html
+03/04/2024 23:34:53 devpinoyLogger ***** CALCULATOR APPLICATION URL has opened ******
+03/04/2024 23:34:54 devpinoyLogger ***** First input value is : 2.0  ******
+03/04/2024 23:34:54 devpinoyLogger ***** Method Division of two Numbers was selected ******
+03/04/2024 23:34:55 devpinoyLogger ***** Second input value is : 8.0  ******
+03/04/2024 23:34:56 devpinoyLogger ***** Results button was selected ******
+03/04/2024 23:34:56 devpinoyLogger ***** Result from Division Method : 0.0  ******
+03/04/2024 23:34:56 devpinoyLogger ***** Result from Calculator Division Method : 10.0  ******
+03/04/2024 23:34:56 devpinoyLogger ***** Results are same 0.0  ,  10.0 ******
+03/04/2024 23:34:57 devpinoyLogger ***** Results will be displayed on the Screen ******
+03/04/2024 23:34:57 devpinoyLogger ***** CALCULATOR APPLICATION URL has Closed ******
