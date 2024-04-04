@@ -1,29 +1,23 @@
 package stepDefination;
 
-import static org.testng.Assert.assertEquals;
-
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.apache.tools.ant.types.Assertions;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.asserts.SoftAssert;
 
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import junit.framework.Assert;
 import pageObjects.BaseClass;
 import pageObjects.CalculatorPage;
 
@@ -35,27 +29,7 @@ public class Steps extends BaseClass {
 		logger = Logger.getLogger("devpinoyLogger");
 		PropertyConfigurator.configure("Properties//log4j.properties");
 		logger.info("***** Loading log4j.properties file ******");
-
-		config = new Properties();
-		// System.getProperty("user.dir");
-		FileInputStream fis = new FileInputStream("Properties//config.properties");
-		config.load(fis);
-		logger.info("***** Loading config.properties file");
-
-		String Browser = config.getProperty("BROWSER");
-		if (Browser.equals("chrome")) {
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
-			logger.info("***** Selected Chrome Browser ******");
-		} else if (Browser.equals("firefox")) {
-			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
-			logger.info("***** Selected firefox Browser ******");
-		} else if (Browser.equals("Edge")) {
-			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
-			logger.info("***** Selected EdgeDriver Browser ******");
-		}
+		setupApplication();
 	}
 
 	@Given("User Launch Chrome Browser")
@@ -146,11 +120,16 @@ public class Steps extends BaseClass {
 		double resultByCalcApp = input1 + input2;
 		logger.info("***** Result from Calculator Addition Method : " + resultByCalcApp + "  ******");
 
-		//assertEquals(resultByCoding, resultByCalcApp);
+		// assertEquals(resultByCoding, resultByCalcApp);
+		softAssert = new SoftAssert();
+		softAssert.assertEquals(resultByCoding, resultByCalcApp, "Comparing both results");
+		softAssert.assertAll();
 		logger.info("***** Results are same " + resultByCoding + "  ,  " + resultByCalcApp + " ******");
 		waitForAllMethods();
 	}
+
 	@When("User compare results for Sub")
+
 	public void user_compare_results_for_Sub() {
 		logger.info("***** Results button was selected ******");
 
@@ -158,12 +137,13 @@ public class Steps extends BaseClass {
 		logger.info("***** Result from Subtraction Method : " + resultByCoding + "  ******");
 		double resultByCalcApp = input1 + input2;
 		logger.info("***** Result from Calculator Subtraction Method : " + resultByCalcApp + "  ******");
-
-	//	assertEquals(resultByCoding, resultByCalcApp);
+		// assertEquals(resultByCoding, resultByCalcApp);
+		softAssert.assertEquals(resultByCoding, resultByCalcApp, "Comparing both results");
+		softAssert.assertAll();
 		logger.info("***** Results are same " + resultByCoding + "  ,  " + resultByCalcApp + " ******");
 		waitForAllMethods();
 	}
-	
+
 	@When("User compare results for Multiply")
 	public void user_compare_results_for_Multiply() {
 		logger.info("***** Results button was selected ******");
@@ -173,11 +153,13 @@ public class Steps extends BaseClass {
 		double resultByCalcApp = input1 + input2;
 		logger.info("***** Result from Calculator Multiplication Method : " + resultByCalcApp + "  ******");
 
-	//	assertEquals(resultByCoding, resultByCalcApp);
+		// assertEquals(resultByCoding, resultByCalcApp);
+		softAssert.assertEquals(resultByCoding, resultByCalcApp, "Comparing both results");
+		softAssert.assertAll();
 		logger.info("***** Results are same " + resultByCoding + "  ,  " + resultByCalcApp + " ******");
 		waitForAllMethods();
 	}
-	
+
 	@When("User compare results for Divide")
 	public void user_compare_results_for_Divide() {
 		logger.info("***** Results button was selected ******");
@@ -187,11 +169,13 @@ public class Steps extends BaseClass {
 		double resultByCalcApp = input1 + input2;
 		logger.info("***** Result from Calculator Division Method : " + resultByCalcApp + "  ******");
 
-	//	assertEquals(resultByCoding, resultByCalcApp);
+		// assertEquals(resultByCoding, resultByCalcApp);
+		softAssert.assertEquals(resultByCoding, resultByCalcApp, "Comparing both results");
+
 		logger.info("***** Results are same " + resultByCoding + "  ,  " + resultByCalcApp + " ******");
 		waitForAllMethods();
 	}
-	
+
 	@Then("Results will be Displayed")
 	public void results_will_be_displayed() {
 		cp.textDisplay();
