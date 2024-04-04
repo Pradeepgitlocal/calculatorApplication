@@ -6,7 +6,7 @@ Feature: calculator application
 
 	
   Scenario: Successful Addition with Valid Numbers
-    Given User Launch Chrome Browser
+  Given User Launch Chrome Browser
 	When User opens calculator application URL  
   And User click on first button and getValue
   And User Click on Add button 
@@ -16,8 +16,8 @@ Feature: calculator application
 	Then Results will be Displayed
 	Then Close the Browser
 
-	  Scenario: Successful Subtraction with Valid Numbers
-	    Given User Launch Chrome Browser
+	Scenario: Successful Subtraction with Valid Numbers
+	Given User Launch Chrome Browser
 	When User opens calculator application URL  
   And User click on first button and getValue
   And User Click on Sub button 
@@ -27,8 +27,8 @@ Feature: calculator application
 	Then Results will be Displayed
 	Then Close the Browser
 	
-	  Scenario: Successful Multiplication with Valid Numbers
-	    Given User Launch Chrome Browser
+	Scenario: Successful Multiplication with Valid Numbers
+	Given User Launch Chrome Browser
 	When User opens calculator application URL  
   And User click on first button and getValue
   And User Click on Multiply button 
@@ -38,8 +38,8 @@ Feature: calculator application
 	Then Results will be Displayed
 	Then Close the Browser
 	
-	  Scenario: Successful Division with Valid Numbers
-	    Given User Launch Chrome Browser
+	Scenario: Successful Division with Valid Numbers
+	Given User Launch Chrome Browser
 	When User opens calculator application URL  
   And User click on first button and getValue
   And User Click on Divide button 
